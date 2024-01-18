@@ -1,0 +1,16 @@
+{
+    "files.exclude": {
+        "**/.pyc": {
+          "when": "$(basename).py"
+        },
+        "**/__pycache__": true,
+        "**/.pytest_cache": true
+      },
+      "terminal.integrated.fontSize": 14,
+      "terminal.integrated.profiles.windows": {
+        "Git Bash": {
+          "source": "Git Bash"
+        }
+      },
+      "terminal.integrated.defaultProfile.windows": "Git Bash",
+}
